@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next'
 import { SECTIONS, type SectionId } from './sections'
 
-type Props = { active: SectionId | null; onOpen: (id: SectionId) => void }
+type Props = { active: SectionId | null; onOpen: (id: SectionId) => void; onCamera: () => void }
 
-export default function Header({ active, onOpen }: Props) {
+export default function Header({ active, onOpen, onCamera }: Props) {
   const { t, i18n } = useTranslation()
   const lang = i18n.language.startsWith('en') ? 'en' : 'pt'
 
@@ -26,6 +26,7 @@ export default function Header({ active, onOpen }: Props) {
 
       <div className="header-right">
         <span className="tagline">{t('tagline')}</span>
+        <button className="cam-btn" onClick={onCamera} aria-label={t('camera.openAria')}>{t('camera.dock')}</button>
         <div className="lang" role="group" aria-label={t('desktop.lang')}>
           {(['pt', 'en'] as const).map((l) => (
             <button

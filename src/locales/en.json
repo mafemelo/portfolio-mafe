@@ -9,7 +9,7 @@
     "menu": "Main navigation"
   },
   "desktop": {
-    "noteTitle": "Hi! I'm Mafê.",
+    "noteTitle": " Hi! I'm Mafê.",
     "noteText": "Click a folder to get to know me.",
     "openFolder": "Open folder",
     "closeFolder": "Close folder",
@@ -21,9 +21,6 @@
     "caption": "mafê, 18",
     "title": "Hi! I'm Maria Fernanda Melo e Reis.",
     "text1": "I'm 18, I live in Belo Horizonte, Brazil, and I study Software Engineering at PUC Minas. I'm currently an IT intern at ITShare, working on automation and AI-assisted development.",
-    "text2": "I focus on building software that solves real problems, combining web development, automation and artificial intelligence.",
-    "goalsTitle": "Interests and goals",
-    "goals": "I'm interested in automation, applied AI and interface development. I want to grow as a software developer, learning by doing and shipping projects that people actually use.",
     "tools": "Tools and languages"
   },
   "projects": {
@@ -58,7 +55,7 @@
       {
         "org": "ITShare Soluções em Tecnologia",
         "role": "IT Intern",
-        "period": "2026 – present",
+        "period": "May 2025 – present",
         "description": "I work in Automation and AI-assisted Development."
       }
     ],
@@ -92,5 +89,26 @@
     "again": "Send another",
     "links": "Other channels"
   },
-  "footer": "© 2026 Maria Fernanda Melo e Reis"
+  "camera": {
+    "label": "camera",
+    "dock": "Camera",
+    "openAria": "Open the instant camera",
+    "title": "Camera",
+    "desc": "Take a photo or attach an image, and it prints out as a polaroid.",
+    "turnOn": "Turn on camera",
+    "turnOff": "Turn off",
+    "attach": "Attach photo",
+    "shutter": "Take photo",
+    "denied": "I couldn't access the camera. You can attach a photo instead.",
+    "revealing": "developing…",
+    "captionLabel": "Polaroid caption",
+    "captionPlaceholder": "write a caption",
+    "download": "Download polaroid",
+    "pin": "Pin to board",
+    "again": "Take another",
+    "removePin": "Remove polaroid",
+    "close": "Close camera",
+    "viewfinder": "Camera viewfinder",
+    "polaroidAlt": "Instant photo"
+  }
 }

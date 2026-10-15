@@ -9,7 +9,7 @@
     "menu": "Navegação principal"
   },
   "desktop": {
-    "noteTitle": "Olá! Eu sou a Mafê.",
+    "noteTitle": " Olá! Eu sou a Mafê.",
     "noteText": "Clique em uma pasta para me conhecer.",
     "openFolder": "Abrir pasta",
     "closeFolder": "Fechar pasta",
@@ -21,9 +21,6 @@
     "caption": "mafê, 18",
     "title": "Oi! Eu sou a Maria Fernanda Melo e Reis.",
     "text1": "Tenho 18 anos, moro em Belo Horizonte e estudo Engenharia de Software na PUC Minas. Hoje sou estagiária em TI na ITShare, atuando com automação e desenvolvimento com IA.",
-    "text2": "Meu foco é construir software que resolve problemas reais, unindo desenvolvimento web, automação e inteligência artificial.",
-    "goalsTitle": "Interesses e objetivos",
-    "goals": "Tenho interesse por automação, IA aplicada e desenvolvimento de interfaces. Quero crescer na área de desenvolvimento de software, aprendendo na prática e entregando projetos que as pessoas usem de verdade.",
     "tools": "Ferramentas e linguagens"
   },
   "projects": {
@@ -58,7 +55,7 @@
       {
         "org": "ITShare Soluções em Tecnologia",
         "role": "Estagiária em TI",
-        "period": "2026 – atual",
+        "period": "maio 2025 – atual",
         "description": "Atuo na área de Automação e Desenvolvimento com IA."
       }
     ],
@@ -92,5 +89,26 @@
     "again": "Enviar outra",
     "links": "Outros canais"
   },
-  "footer": "© 2026 Maria Fernanda Melo e Reis"
+  "camera": {
+    "label": "câmera",
+    "dock": "Câmera",
+    "openAria": "Abrir a câmera instantânea",
+    "title": "Câmera",
+    "desc": "Tire uma foto ou anexe uma imagem, e ela sai impressa como uma polaroid.",
+    "turnOn": "Ligar câmera",
+    "turnOff": "Desligar",
+    "attach": "Anexar foto",
+    "shutter": "Tirar foto",
+    "denied": "Não consegui acessar a câmera. Você pode anexar uma foto.",
+    "revealing": "revelando…",
+    "captionLabel": "Legenda da polaroid",
+    "captionPlaceholder": "escreva uma legenda",
+    "download": "Baixar polaroid",
+    "pin": "Colar no quadro",
+    "again": "Tirar outra",
+    "removePin": "Remover polaroid",
+    "close": "Fechar câmera",
+    "viewfinder": "Visor da câmera",
+    "polaroidAlt": "Foto instantânea"
+  }
 }

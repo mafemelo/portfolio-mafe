@@ -18,10 +18,6 @@ export default function About() {
       <div className="about-text">
         <h2>{t('about.title')}</h2>
         <p>{t('about.text1')}</p>
-        <p>{t('about.text2')}</p>
-
-        <h3>{t('about.goalsTitle')}</h3>
-        <p>{t('about.goals')}</p>
 
         <h3>{t('about.tools')}</h3>
         <ul className="chips">
