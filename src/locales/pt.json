@@ -1,0 +1,88 @@
+{
+  "brand": "—mafê melo",
+  "tagline": "portfólio · 2026",
+  "nav": { "about": "Sobre mim", "projects": "Projetos", "experience": "Experiências", "contact": "Contato", "menu": "Navegação principal" },
+  "desktop": {
+    "noteTitle": "Olá! eu sou a Mafê.",
+    "noteText": "Clique em uma pasta para me conhecer.",
+    "openFolder": "Abrir pasta",
+    "closeFolder": "Fechar pasta",
+    "lang": "Idioma"
+  },
+  "about": {
+    "photoAlt": "Foto de Maria Fernanda Melo e Reis",
+    "photoPlaceholder": "sua foto",
+    "caption": "mafê, 18",
+    "title": "Oi! Eu sou a Maria Fernanda Melo e Reis.",
+    "text1": "Tenho 18 anos, moro em Belo Horizonte e estudo Engenharia de Software na PUC Minas. Hoje sou estagiária em TI na ITShare, atuando com automação e desenvolvimento com IA.",
+    "text2": "Meu foco é construir software que resolve problemas reais, unindo desenvolvimento web, automação e inteligência artificial.",
+    "goalsTitle": "Interesses e objetivos",
+    "goals": "Tenho interesse por automação, IA aplicada e desenvolvimento de interfaces. Quero crescer na área de desenvolvimento de software, aprendendo na prática e entregando projetos que as pessoas usem de verdade.",
+    "tools": "Ferramentas e linguagens"
+  },
+  "projects": {
+    "title": "Projetos",
+    "intro": "Linha do tempo, do mais antigo ao mais recente.",
+    "techs": "Tecnologias",
+    "repo": "Ver repositório no GitHub",
+    "demo": "Ver projeto no ar",
+    "imagePlaceholder": "imagem ou GIF do projeto",
+    "items": {
+      "aurora": {
+        "name": "Aurora",
+        "meta": "Projeto final do 3º ano · COTEMIG",
+        "description": "App de controle diário de saúde mental."
+      },
+      "sintoniza": {
+        "name": "Sintoniza",
+        "meta": "1º período · PUC Minas",
+        "description": "Aplicação web de promoção de artistas independentes, que conecta estabelecimentos e artistas.",
+        "badge": "Melhor projeto da turma 2026.1"
+      }
+    }
+  },
+  "experience": {
+    "title": "Experiências",
+    "current": "Atual",
+    "work": "Estágio",
+    "education": "Formação",
+    "items": [
+      {
+        "org": "ITShare Soluções em Tecnologia",
+        "role": "Estagiária em TI",
+        "period": "2026 – atual",
+        "description": "Atuo na área de Automação e Desenvolvimento com IA."
+      }
+    ],
+    "courses": [
+      {
+        "org": "PUC Minas · Coração Eucarístico",
+        "role": "Engenharia de Software",
+        "period": "fev 2026 – dez 2029"
+      },
+      {
+        "org": "Colégio COTEMIG · Barroca",
+        "role": "Ensino Técnico em Informática",
+        "period": "fev 2023 – dez 2025"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Vamos conversar?",
+    "subtitle": "Me mande uma mensagem por aqui.",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "send": "Enviar mensagem",
+    "sending": "Enviando…",
+    "errName": "Preencha o nome.",
+    "errEmail": "Informe um e-mail válido.",
+    "errMessage": "Escreva uma mensagem.",
+    "errSend": "Não foi possível enviar agora. Tente de novo ou use o e-mail ao lado.",
+    "okTitle": "Mensagem enviada!",
+    "okText": "Obrigada, {{name}}. Vou responder em breve.",
+    "again": "Enviar outra",
+    "links": "Outros canais"
+  },
+  "footer": "© 2026 Maria Fernanda Melo e Reis · Feito com React e Vite"
+}

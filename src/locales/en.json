@@ -1,0 +1,88 @@
+{
+  "brand": "—mafê melo",
+  "tagline": "portfolio · 2026",
+  "nav": { "about": "About me", "projects": "Projects", "experience": "Experience", "contact": "Contact", "menu": "Main navigation" },
+  "desktop": {
+    "noteTitle": "Hi! I'm Mafê.",
+    "noteText": "Click a folder to get to know me.",
+    "openFolder": "Open folder",
+    "closeFolder": "Close folder",
+    "lang": "Language"
+  },
+  "about": {
+    "photoAlt": "Photo of Maria Fernanda Melo e Reis",
+    "photoPlaceholder": "your photo",
+    "caption": "mafê, 18",
+    "title": "Hi! I'm Maria Fernanda Melo e Reis.",
+    "text1": "I'm 18, I live in Belo Horizonte, Brazil, and I study Software Engineering at PUC Minas. I'm currently an IT intern at ITShare, working on automation and AI-assisted development.",
+    "text2": "I focus on building software that solves real problems, combining web development, automation and artificial intelligence.",
+    "goalsTitle": "Interests and goals",
+    "goals": "I'm interested in automation, applied AI and interface development. I want to grow as a software developer, learning by doing and shipping projects that people actually use.",
+    "tools": "Tools and languages"
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "Timeline, from oldest to newest.",
+    "techs": "Technologies",
+    "repo": "View repository on GitHub",
+    "demo": "View live project",
+    "imagePlaceholder": "project image or GIF",
+    "items": {
+      "aurora": {
+        "name": "Aurora",
+        "meta": "Senior-year final project · COTEMIG",
+        "description": "A daily mental health tracking app."
+      },
+      "sintoniza": {
+        "name": "Sintoniza",
+        "meta": "1st semester · PUC Minas",
+        "description": "A web application that promotes independent artists by connecting venues and artists.",
+        "badge": "Best project of the 2026.1 class"
+      }
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "current": "Current",
+    "work": "Internship",
+    "education": "Education",
+    "items": [
+      {
+        "org": "ITShare Soluções em Tecnologia",
+        "role": "IT Intern",
+        "period": "2026 – present",
+        "description": "I work in Automation and AI-assisted Development."
+      }
+    ],
+    "courses": [
+      {
+        "org": "PUC Minas · Coração Eucarístico",
+        "role": "Software Engineering",
+        "period": "Feb 2026 – Dec 2029"
+      },
+      {
+        "org": "Colégio COTEMIG · Barroca",
+        "role": "Technical Course in Informatics",
+        "period": "Feb 2023 – Dec 2025"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's talk?",
+    "subtitle": "Send me a message here.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "errName": "Please enter your name.",
+    "errEmail": "Enter a valid email.",
+    "errMessage": "Write a message.",
+    "errSend": "Couldn't send right now. Try again or use the email on the side.",
+    "okTitle": "Message sent!",
+    "okText": "Thank you, {{name}}. I'll reply soon.",
+    "again": "Send another",
+    "links": "Other channels"
+  },
+  "footer": "© 2026 Maria Fernanda Melo e Reis · Built with React and Vite"
+}
