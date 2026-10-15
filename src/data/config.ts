@@ -17,24 +17,28 @@ export type Project = {
   repo: string // TODO: trocar pelo link real do repositório de cada projeto
   demo?: string // opcional: link do projeto publicado
   techs: string[] // TODO: conferir as tecnologias reais de cada projeto
-  image?: string // TODO: caminho em /public/images, ex.: '/images/aurora.png' (png, jpg ou gif)
+  image?: string // caminho em /public/images (png, jpg ou gif)
+  fit?: 'cover' | 'contain' // contain = mostra a imagem inteira (bom para telas de celular)
+  bg?: string // cor de fundo quando fit = contain
 }
 
-// Ordem: do mais antigo para o mais recente (exigência do enunciado)
+
 export const PROJECTS: Project[] = [
   {
     id: 'aurora',
     year: 2025,
-    repo: 'https://github.com/mafemelo',
-    techs: ['Flutter', 'Dart'],
-    image: undefined,
+    repo: 'https://github.com/davimurta/Aurora.git', 
+    techs: ['React Native', 'Expo', 'TypeScript'],
+    image: '/images/aurora.gif',
+    fit: 'contain',
+    bg: '#383a37',
   },
   {
     id: 'sintoniza',
     year: 2026,
-    repo: 'https://github.com/mafemelo',
-    techs: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
-    image: undefined,
+    repo: 'https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-1-ti1-0438200-g6-1.git',
+    techs: ['JavaScript', 'HTML', 'CSS'],
+    image: '/images/sintoniza.jpg',
   },
 ]
 
@@ -43,4 +47,4 @@ export const TOOLS = [
   'Flutter', 'React', 'SQL', 'MySQL', 'Figma',
 ]
 
-export const PHOTO = '' // TODO: '/images/mafe.jpg' (coloque o arquivo em /public/images)
+export const PHOTO = '/images/mafe.jpg'

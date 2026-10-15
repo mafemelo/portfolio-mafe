@@ -1,9 +1,15 @@
 {
-  "brand": "—mafê melo",
+  "brand": "— mafê melo",
   "tagline": "portfólio · 2026",
-  "nav": { "about": "Sobre mim", "projects": "Projetos", "experience": "Experiências", "contact": "Contato", "menu": "Navegação principal" },
+  "nav": {
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "experience": "Experiências",
+    "contact": "Contato",
+    "menu": "Navegação principal"
+  },
   "desktop": {
-    "noteTitle": "Olá! eu sou a Mafê.",
+    "noteTitle": "Olá! Eu sou a Mafê.",
     "noteText": "Clique em uma pasta para me conhecer.",
     "openFolder": "Abrir pasta",
     "closeFolder": "Fechar pasta",
@@ -30,14 +36,16 @@
     "items": {
       "aurora": {
         "name": "Aurora",
-        "meta": "Projeto final do 3º ano · COTEMIG",
-        "description": "App de controle diário de saúde mental."
+        "meta": "Projeto de conclusão do curso técnico · COTEMIG (3A1)",
+        "description": "Aplicativo mobile de saúde mental que conecta pacientes e psicólogos. O paciente registra como se sente no dia a dia, e o psicólogo acompanha esses registros entre as sessões. O app também tem um blog com conteúdo dos profissionais.",
+        "imageAlt": "Tela de login do aplicativo Aurora"
       },
       "sintoniza": {
         "name": "Sintoniza",
         "meta": "1º período · PUC Minas",
-        "description": "Aplicação web de promoção de artistas independentes, que conecta estabelecimentos e artistas.",
-        "badge": "Melhor projeto da turma 2026.1"
+        "description": "Plataforma web que conecta estabelecimentos e artistas musicais independentes. Artistas criam perfis com estilo e portfólio, e os estabelecimentos buscam e filtram as opções para encontrar o artista ideal.",
+        "badge": "Melhor projeto da turma 2026.1",
+        "imageAlt": "Tela inicial do Sintoniza com a busca de estabelecimentos"
       }
     }
   },
@@ -84,5 +92,5 @@
     "again": "Enviar outra",
     "links": "Outros canais"
   },
-  "footer": "© 2026 Maria Fernanda Melo e Reis · Feito com React e Vite"
+  "footer": "© 2026 Maria Fernanda Melo e Reis"
 }

@@ -4,7 +4,7 @@ import { PROJECTS } from '../data/config'
 
 export default function Projects() {
   const { t } = useTranslation()
-  const items = [...PROJECTS].sort((a, b) => a.year - b.year) // mais antigo → mais recente
+  const items = [...PROJECTS].sort((a, b) => a.year - b.year) 
 
   return (
     <div>
